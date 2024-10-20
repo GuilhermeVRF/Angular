@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/card.css">
+    <script src="./src/components/CardNews.js" defer></script>
+    <script src="./src/components/DynamicTitle.js" defer></script>
+    <title>PORTAL DE NOTÍCIAS GALÁCTICA</title>
+</head>
+<body>
+    <div class="container">
+        <dynamic-title value="Portal de Notícias Galácticas"></dynamic-title>
+        <card-news
+            author="Guilherme Victor"
+            title="Darth Vader está contratando DEVS"
+            content="Darth Varder está a procura de DEVS que saibam trabalhar com componentização de
+            elementos HTML.">
+    </card-news>
+    <card-news
+            author="Guilherme Victor"
+            title="Anakin está contratando DEVS"
+            link="#"
+            content="Anakin está a procura de DEVS que saibam trabalhar com Spring Boot."
+            photo = "assets/darthVader.png"
+            photoAlt = "Foto do DarthVader segurando uma caneca">
+    </card-news>
+    </div>
+</body>
+</html>
